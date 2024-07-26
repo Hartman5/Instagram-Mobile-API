@@ -249,6 +249,9 @@ export default class Instagram {
             }
         }
     }
+    async authenticateUser2FA(username, password) {}
+
+    async submit2FA(code) {}
 
     async getProfileData(profileId) {}
 
@@ -312,7 +315,7 @@ export default class Instagram {
 
     async setUserBiography(biography) {}
 
-    async submit2FA(code) {}
-
     async solveInstagramChallenge(anchor, captchaData) {}
+
+    async registerDevice() {}
 }
