@@ -88,9 +88,9 @@ export default class Instagram {
 
             if(this.values.token) headers['authorization'] = this.values.token;
             if(this.values.claim) headers['x-ig-www-claim'] = this.values.claim;
-            if(this.values.rur) headers['ig-ig-u-rur'] = this.values.rur;
-            if(this.values.shbid) headers['ig-ig-u-shbid'] = this.values.shbid;
-            if(this.values.shbts) headers['ig-ig-u-shbts'] = this.values.shbts;
+            if(this.values.rur) headers['ig-u-rur'] = this.values.rur;
+            if(this.values.shbid) headers['ig-u-shbid'] = this.values.shbid;
+            if(this.values.shbts) headers['ig-u-shbts'] = this.values.shbts;
             if(this.values.ds_user_id) headers['ig-intended-user-id'] = this.values.ds_user_id;
             if(this.values.ds_user_id) headers['ig-u-ds-user-id'] = this.values.ds_user_id;
     
