@@ -17,6 +17,7 @@ This repo includes the source code for Instagram's login request on their mobile
 Includes a complete Instagram request signer + GraphQL and Bloks request signer.
 
 ```js
+class Instagram {
     async login(username, password) {} // the only opensource part
 
     async authenticateUser2FA(username, password) {}
@@ -61,9 +62,7 @@ Includes a complete Instagram request signer + GraphQL and Bloks request signer.
 
     async search(query) {}
 
-    async getProfileSuggestions() {}
-
-    async fetchDirectMessages() {}
+    async fetchDirectMessages(state) {}
 
     async createDirectMessageThread(profileId) {}
 
@@ -87,7 +86,8 @@ Includes a complete Instagram request signer + GraphQL and Bloks request signer.
 
     async solveInstagramChallenge(anchor, captchaData) {}
 
-    async registerDevice() {}
+    async registerDevice(platform) {}
+}
 ```
 
 # Contact
