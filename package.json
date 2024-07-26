@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "undici": "^6.19.4",
+    "uuid": "^10.0.0"
+  },
+  "name": "instagram-api-login",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
