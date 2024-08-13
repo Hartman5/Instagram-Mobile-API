@@ -1,6 +1,6 @@
 # Instagram's Private Mobile API Reversed
 
-This repo includes the source code for Instagram's login request on their mobile API, no silent flags, completely undetected. The rest of the functions inside modules/Instagram.js have been redacted, you can contact me on **Telegram @Hartman50** to gain access to the redacted functions. Full access to this project contains fully reversed Instagram Bloks API, GraphQL API, along with all related algos and functions fully-reversed and undetected. 
+This repo includes the source code for Instagram's login request on their mobile API, no silent flags, completely undetected. The rest of the functions inside modules/Instagram.js have been redacted, you can contact me on **Telegram @reversewasm** to gain access to the redacted functions. Full access to this project contains fully reversed Instagram Bloks API, GraphQL API, along with all related algos and functions fully-reversed and undetected. 
 
 **Instagram register endpoint will be opensourced at 50 stars.**
 
@@ -96,4 +96,4 @@ class Instagram {
 
 Contact me on Telegram below to obtain full-access.
 
-Telegram - @Hartman50
+Telegram - @reversewasm
